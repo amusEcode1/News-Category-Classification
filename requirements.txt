@@ -1,4 +1,3 @@
-Core
 numpy
 pandas
 matplotlib
@@ -14,3 +13,4 @@ tensorflow
 scikeras
 streamlit
 joblib
+
