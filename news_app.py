@@ -1,12 +1,3 @@
-!pip install streamlit joblib -q
-
-!pip install gensim -q
-
-!pip install scikeras -q
-
-from google.colab import drive
-drive.mount('/content/drive')
-
 import streamlit as st
 import joblib
 import numpy as np
@@ -50,7 +41,7 @@ def create_ffnn(input_dim, num_classes):
 # Load saved pipeline
 @st.cache_resource
 def load_model():
-    return joblib.load('/content/drive/MyDrive/Models/news_model.joblib')
+    return joblib.load('news_model.joblib')
 
 # Load the model
 model = load_model()
@@ -69,5 +60,3 @@ if st.button("Classify"):
     else:
         prediction = model.predict([news_text])[0]
         st.success(f"Predicted Category: **{prediction}**")
-
-!jupyter nbconvert --to script "/content/drive/MyDrive/Colab Notebooks/news_app.ipy"
