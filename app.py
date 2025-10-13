@@ -1,15 +1,11 @@
-!pip install streamlit joblib -q
-
-!pip install scikeras
-
-!pip install gensim -q
-
-from google.colab import drive
-drive.mount('/content/drive')
-
 import numpy as np
 import pandas as pd
 from sklearn.base import BaseEstimator, TransformerMixin
+
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout
+from scikeras.wrappers import KerasClassifier
 
 import streamlit as st
 import joblib
@@ -67,7 +63,3 @@ if st.button("Classify"):
     else:
         prediction = model.predict([news_text])[0]
         st.success(f"Predicted Category: **{prediction}**")
-
-!jupyter nbconvert --to script "/content/drive/MyDrive/app.ipynb"
-
-!mv "/content/drive/MyDrive/app.txt" "/content/drive/MyDrive/app.py"
