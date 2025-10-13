@@ -7,6 +7,7 @@ spacy
 beautifulsoup4
 nltk
 gensim
+tensorflow-cpu
 scikit-learn
 xgboost
 streamlit
