@@ -4,10 +4,11 @@ matplotlib
 seaborn
 wordcloud
 beautifulsoup4
+scikit-learn
+xgboost
 nltk
 gensim
 tensorflow-cpu
-scikit-learn
-xgboost
+scikeras
 streamlit
 joblib
