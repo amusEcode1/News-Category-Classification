@@ -44,7 +44,7 @@ def create_ffnn(input_dim, num_classes):
 # Load saved pipeline
 @st.cache_resource
 def load_model():
-    return joblib.load('/content/drive/MyDrive/Models/News-Category-Classification/model.joblib')
+    return joblib.load('model.joblib')
 
 # Load the model
 model = load_model()
