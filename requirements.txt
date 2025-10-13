@@ -9,7 +9,5 @@ nltk
 gensim
 scikit-learn
 xgboost
-tensorflow-cpu
-scikeras
 streamlit
 joblib
