@@ -1,4 +1,4 @@
-## 🛒 Product Review Sentiment Analysis
+## 📰 News Category Classification
 This project is a **Natural Language Processing (NLP)** application that classifies news articles into multiple categories such as World, Sport, Business, and Sci/Tech.
 
 ## 🧩 Key Steps:
@@ -37,7 +37,7 @@ The dataset used is the IMDb reviews dataset (50,000+ samples).
 | Support Vector Machine (SVM) | 88.21% | — |
 | Random Forest Classifier | 89.09% | — |
 | XGBoost Classifier | 90.07% | — |
-| **Feedforward Neural Network (Keras)** | 90.32% | 🏆 Best performance |
+| **Feedforward Neural Network (Keras)** | **90.32%** | 🏆 Best performance |
 
 ## 🧠 Tech Stack & Tools: 
 - Python (NumPy, Pandas, Matplotlib, Seaborn, WordCloud, BeautifulSoup, NLTK, Gensim, Scikit-learn, Xgboost, Tensorflow)
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 ## 📂 Folder Structure
 ```
-Product-Review-Sentiment-Analysis/
+News-Category-Classification/
 ├── News-Category-Classification.ipynb          
 ├── requirements.txt     
 ├── images/              
