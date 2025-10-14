@@ -14,7 +14,7 @@ This project is a **Natural Language Processing (NLP)** application that classif
 - Evaluation: Measured performance using accuracy, classification reports.
 
 ## 📂 Dataset
-The dataset used is the IMDb reviews dataset (50,000+ samples).
+The dataset used is the AG News Classification Dataset (120,000+ samples).
 - Available on:
   - [Kaggle - IMDb Dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
   - [Google Drive - IMDb Dataset](https://drive.google.com/drive/folders/19_Vm_xGfmJyAxbAOMPpAMwokGYztSSQd?usp=drive_link)
