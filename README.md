@@ -27,7 +27,7 @@ The dataset used is the AG News Classification Dataset (120,000+ samples).
 ### WordClouds
 ![Most frequent words across categories](images/word_cloud.png)
 
-### Confusion Matrices
+### Confusion Matrix
 ![Confusion Matrix (Feedforward Neural Network (Keras))](images/confusion_matrix.png)
 
 ### 📊 Model Performance Comparison
