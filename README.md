@@ -30,6 +30,9 @@ The dataset used is the AG News Classification Dataset (120,000+ samples).
 ### Confusion Matrix
 ![Confusion Matrix (Feedforward Neural Network (Keras))](images/confusion_matrix.png)
 
+### Model Comparison
+![model_accuracy_comparison](images/compare_model_accuracy.png)
+
 ### 📊 Model Performance Comparison
 | Model | Accuracy | Remarks |
 |:---------------------------|:----------:|:----------------------|
