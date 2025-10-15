@@ -60,6 +60,7 @@ Before running this project locally, ensure the following are installed:
 - Scikit-learn
 - Xgboost
 - Tensorflow
+- SciKeras
 
 ## Installing
 To install all required dependencies:
