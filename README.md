@@ -16,8 +16,8 @@ This project is a **Natural Language Processing (NLP)** application that classif
 ## 📂 Dataset
 The dataset used is the AG News Classification Dataset (120,000+ samples).
 - Available on:
-  - [Kaggle - IMDb Dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
-  - [Google Drive - IMDb Dataset](https://drive.google.com/drive/folders/19_Vm_xGfmJyAxbAOMPpAMwokGYztSSQd?usp=drive_link)
+  - [Kaggle - AG News Classification Dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)
+  - [Google Drive - AG News Classification Dataset](https://drive.google.com/drive/folders/19_Vm_xGfmJyAxbAOMPpAMwokGYztSSQd?usp=drive_link)
 
 ## 📊 Visualizations
 - WordClouds showing the most frequent words across categories
