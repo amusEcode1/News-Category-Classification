@@ -40,7 +40,7 @@ The dataset used is the AG News Classification Dataset (120,000+ samples).
 | Support Vector Machine (SVM) | 88.21% | — |
 | Random Forest Classifier | 89.09% | — |
 | XGBoost Classifier | 90.07% | — |
-| **Feedforward Neural Network (Keras)** | **90.32%** | 🏆 Best performance |
+| **Feedforward Neural Network (Keras)** | **90.28%** | 🏆 Best performance |
 
 ## 🧠 Tech Stack & Tools: 
 - Python (NumPy, Pandas, Matplotlib, Seaborn, WordCloud, BeautifulSoup, NLTK, Gensim, Scikit-learn, Xgboost, Tensorflow)
