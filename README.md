@@ -86,7 +86,6 @@ News-Category-Classification/
 
 ## ❓ Help
 If you encounter any issues:
-- Check the [Streamlit Documentation](https://docs.streamlit.io/)
 - Search for similar issues or solutions on [Kaggle](https://www.kaggle.com/)
 - Open an issue in this repository
 
